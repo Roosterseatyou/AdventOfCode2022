@@ -7,12 +7,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] topThree = PartTwo.findTopThree(Utils.getFile("src/main/resources/dayOne.txt"));
-        int sum = 0;
-        for(int i : topThree) {
-            sum += i;
-        }
-        System.out.println(Arrays.toString(topThree));
-        System.out.println(sum);
+        int score = xyz.roosterseatyou.adventofcodetwentytwo.daytwo.PartOne.solve(Utils.getFile("src/main/resources/daytwo.txt"));
+        System.out.println(score);
     }
 }
